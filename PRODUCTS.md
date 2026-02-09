@@ -1,17 +1,16 @@
 # Formato do .json dos produtos
 
-siga o exemplo descrito abaixo:
+basta enviar um array de produtos conforme o modelo abaixo:
 
 ```json
 {
   "products": [
     {
-      "id": 122,
-      "name": "Panettone Chocotone Gotas De Chocolate Lindt 390g",
-      "price": 69.9,
-      "image": "https://site.com/imagem.png",
-      "url": "https://site.com.br/produto/1",
-      "description": "O panettone é elogiado pela massa fofinha e sabor suave, com uma quantidade generosa de gotas de chocolate. A qualidade e o sabor são destacados, sendo considerado por muitos como o melhor chocotone disponível."
+      "id": 1,
+      "title": "Chocotone Gotas de Chocolate Lindt 390g",
+      "price": 69.90,
+      "description": "O panettone é elogiado pela massa fofinha e sabor suave, com uma quantidade generosa de gotas de chocolate",
+      "script": "Aqui dentro vai o roteiro do seu anúncio",
     }
   ]
 }
